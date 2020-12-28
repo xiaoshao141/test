@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/QtStyle1.qss</file>
+        <file>images/cgjt.png</file>
+        <file>logo.ico</file>
+        <file>State1/辅助开关分闸.png</file>
+        <file>State1/辅助开关合闸.png</file>
+        <file>State1/微动开关A相分闸.png</file>
+        <file>State1/微动开关A相合闸.png</file>
+        <file>State1/微动开关B相分闸.png</file>
+        <file>State1/微动开关B相合闸.png</file>
+        <file>State1/微动开关C相分闸.png</file>
+        <file>State1/微动开关C相合闸 .png</file>
+        <file>State1/主断口A相分闸.png</file>
+        <file>State1/主断口A相合闸.png</file>
+        <file>State1/主断口B相分闸.png</file>
+        <file>State1/主断口B相合闸.png</file>
+        <file>State1/主断口C相分闸.png</file>
+        <file>State1/主断口C相合闸.png</file>
+        <file>State1/总开关分闸.png</file>
+        <file>State1/总开关合闸.png</file>
+        <file>stataPhotoes/A相分闸.png</file>
+        <file>stataPhotoes/A相合闸.png</file>
+        <file>stataPhotoes/B相分闸.png</file>
+        <file>stataPhotoes/B相合闸.png</file>
+        <file>stataPhotoes/C相分闸.png</file>
+        <file>stataPhotoes/C相合闸.png</file>
+        <file>stataPhotoes/辅助开关分闸.png</file>
+        <file>stataPhotoes/辅助开关合闸.png</file>
+        <file>stataPhotoes/主断口分闸.png</file>
+        <file>stataPhotoes/主断口合闸.png</file>
+        <file>stataPhotoes/主断口分闸1.png</file>
+        <file>stataPhotoes/主断口合闸1.png</file>
+        <file>stataPhotoes/主断口分闸2.png</file>
+        <file>stataPhotoes/主断口合闸2.png</file>
+    </qresource>
+</RCC>

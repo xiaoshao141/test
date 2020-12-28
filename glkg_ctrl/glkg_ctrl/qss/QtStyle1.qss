@@ -1,0 +1,55 @@
+/*按钮普通态*/
+QPushButton{
+    /*字体为微软雅黑*/
+    font-family:Microsoft Yahei;
+
+    /*字体颜色为白色*/
+    color:white;
+    /*背景颜色*/
+    background-color:rgb(14 , 150 , 254);
+    /*边框圆角半径为8像素*/
+/*    border-radius:8px;*/
+
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border: 2px solid rgb(14 , 150 , 254);
+}
+/*按钮停留态*/
+QPushButton:hover {
+    background-color:white;
+    color: rgb(44 , 137 , 255);
+}
+/*按钮按下态*/
+QPushButton:pressed {
+    background-color:#ACEDFA;
+}
+
+QGroupBox {
+    border: 2px solid rgb(14 , 150 , 254);
+    border-radius: 3px;
+    /* 就像墙上挂着的两个相框,margin指的是相框与相框的距离
+       padding指的是每个相框里照片与相框边框的距离 */
+    margin-top: 15px;
+
+}
+
+QGroupBox::title{
+    /* 位置 */
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+
+    /* 内边框,上下和左右 */
+    padding: 0px 3px;
+
+}
+
+QMainWindow,QDialog{
+background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+stop: 0 #BBDCE8, stop: 1 #BBDCE8);/*#BBDCE8  #7FB3E8*/
+
+}
+
+
+
