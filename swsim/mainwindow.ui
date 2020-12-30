@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tblDZInfo">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>1</y>
+      <width>861</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <column>
+     <property name="text">
+      <string>电站名称</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>电站代码</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>流量数据</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>水位数据</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>流速数据</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>闸门开度</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>最小下泄流量</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>电池电压</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btnAddDZ">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>90</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加电站</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDelDZ">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>170</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除电站</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRunCtrl">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>470</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/pics/start.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRefresh">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>10</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>刷新电站</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
