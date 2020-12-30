@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss(1)/abc.qss</file>
+        <file>qss(1)/abc_satellite.qss</file>
+        <file>qss(1)/default.qss</file>
+        <file>qss(1)/no.qss</file>
+        <file>qss(1)/QDarkStyleSheet.qss</file>
+        <file>qss(1)/style3.qss</file>
+        <file>qss(1)/style4.qss</file>
+        <file>qss(1)/stylesheet2.qss</file>
+        <file>qss(1)/do.qss</file>
+        <file>qss(1)/cheng.qss</file>
+        <file>qss(1)/blue.qss</file>
+        <file>qss(1)/hui.qss</file>
+        <file>image/322.bmp</file>
+        <file>image/delete1.bmp</file>
+    </qresource>
+</RCC>
